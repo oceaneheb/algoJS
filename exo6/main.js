@@ -1,7 +1,7 @@
 let tableau = [];
-// tableau.push[0] = prompt("Quel est le nom de l'article ?");
-// tableau.push[1] = parseInt(prompt("Prix de l'article (HT) : "));
-// tableau.push[2] = parseInt(prompt("Quelle est la quantité ?"));
+// tableau.push(prompt("Quel est le nom de l'article ?"));
+// tableau.push(parseInt(prompt("Prix de l'article (HT) : ")));
+// tableau.push(parseInt(prompt("Quelle est la quantité ?")));
 
 let nomArticle = prompt("Quel est le nom de l'article ?");;
 let prixArticle = parseInt(prompt("Prix de l'article (HT) : "));
@@ -16,4 +16,6 @@ function prixTTC(article) {
 }
 
 prixTTC(tableau);
+
+// let prixTTC = (tableau[1]*1.20*tableau[2]).toFixed(2);
 
