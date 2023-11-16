@@ -31,7 +31,7 @@ console.log(joueur2);
 class Combat {
     // Attributs
     nbrTour;
-    static scoreJoueur1 = 0;
+    static scoreJoueur1 = 0; //utilisable uniquement par la classe et pas par l'Objet
     static scoreJoueur2 = 0;
 
     constructor(joueur1, joueur2, nbrTour) {
